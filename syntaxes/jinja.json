@@ -35,13 +35,13 @@
 			"name": "comment.block.jinja"
 		},
 		{
-			"begin": "{[{-?",
+			"begin": "{\\[{-?",
 			"captures": [
 				{
 					"name": "entity.other.jinja.delimiter.variable"
 				}
 			],
-			"end": "-?}]}",
+			"end": "-?}\\]}",
 			"name": "meta.scope.jinja.variable",
 			"patterns": [
 				{
