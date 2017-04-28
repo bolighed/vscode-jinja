@@ -2,7 +2,9 @@
 	"name": "jinja",
 	"scopeName": "source.jinja",
 	"comment": "Jinja Template Engine",
-	"fileTypes": ["j2"],
+	"fileTypes": [
+		"j2"
+	],
 	"foldingStartMarker": "({%\\s*(block|filter|for|if|macro|raw))",
 	"foldingStopMarker": "({%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})",
 	"patterns": [
@@ -33,13 +35,13 @@
 			"name": "comment.block.jinja"
 		},
 		{
-			"begin": "{{-?",
+			"begin": "{[{-?",
 			"captures": [
 				{
 					"name": "entity.other.jinja.delimiter.variable"
 				}
 			],
-			"end": "-?}}",
+			"end": "-?}]}",
 			"name": "meta.scope.jinja.variable",
 			"patterns": [
 				{
