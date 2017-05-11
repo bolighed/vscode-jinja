@@ -1,9 +1,9 @@
 {
 	"name": "jinja",
-	"version": "0.0.7",
-	"publisher": "wholroyd",
+	"version": "0.0.8",
+	"publisher": "bolighed",
 	"author": {
-		"name": "William Holroyd"
+		"name": "William Holroyd",
 	},
 	"license": "MIT",
 	"icon": "icon.png",
