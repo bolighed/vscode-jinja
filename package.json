@@ -3,7 +3,7 @@
 	"version": "0.0.8",
 	"publisher": "bolighed",
 	"author": {
-		"name": "William Holroyd",
+		"name": "William Holroyd"
 	},
 	"license": "MIT",
 	"icon": "icon.png",
@@ -25,13 +25,12 @@
 		"vscode": "0.10.x"
 	},
 	"contributes": {
-		"languages": [
-			{
+		"languages": [{
 				"id": "jinja",
 				"aliases": [
 					"Jinja"
 				],
-                "extensions": [".j2"],
+				"extensions": [".j2"],
 				"configuration": "./jinja.configuration.json"
 			},
 			{
@@ -40,7 +39,7 @@
 					"Jinja",
 					"HTML"
 				],
-                "extensions": [".j2", ".jinja2", ".html", ".htm"],
+				"extensions": [".j2", ".jinja2", ".html", ".htm"],
 				"configuration": "./jinja-html.configuration.json"
 			},
 			{
@@ -49,12 +48,11 @@
 					"Jinja",
 					"YAML"
 				],
-                "extensions": [".j2", ".eyaml", ".eyml", ".yaml", ".yml", ".sls"],
+				"extensions": [".j2", ".eyaml", ".eyml", ".yaml", ".yml", ".sls"],
 				"configuration": "./jinja-yaml.configuration.json"
 			}
 		],
-		"grammars": [
-			{
+		"grammars": [{
 				"language": "jinja",
 				"scopeName": "source.jinja",
 				"path": "./syntaxes/jinja.json"
